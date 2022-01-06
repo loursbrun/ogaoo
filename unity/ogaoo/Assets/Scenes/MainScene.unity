@@ -367,7 +367,7 @@ GameObject:
   - component: {fileID: 259933492}
   - component: {fileID: 259933493}
   m_Layer: 0
-  m_Name: main
+  m_Name: Main
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -483,7 +483,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 621316317}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 259933493}
+        m_TargetAssemblyTypeName: main, Assembly-CSharp
+        m_MethodName: LoadTest2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &621316317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1302,7 +1314,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1378802176}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 259933493}
+        m_TargetAssemblyTypeName: main, Assembly-CSharp
+        m_MethodName: LoadTest1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1378802176
 MonoBehaviour:
   m_ObjectHideFlags: 0
