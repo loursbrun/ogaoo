@@ -9,6 +9,7 @@ public class MainTest1 : MonoBehaviour
     void Start()
     {
         Debug.Log("Test 1 Scene !");
+        Debug.Log("Test Git");
     }
 
     // Update is called once per frame
