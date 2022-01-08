@@ -1,35 +1,34 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using UnityEngine.EventSystems;
 
-public class MainTest2 : MonoBehaviour
+public class Car : MonoBehaviour
 {
     /*
     * Public
     */
 
-     
+
+
     /*
     * Private
     */
 
+     
+
+
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Test 2 Scene !");
+        
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+      
         
     }
-
-    public void LoadMain()
-    {
-        SceneManager.LoadScene(0);
-    }
-
 }
