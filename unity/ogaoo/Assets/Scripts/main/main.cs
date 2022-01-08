@@ -16,7 +16,11 @@ public class main : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
+
         Debug.Log("Hello Fabien !");
+
+        Debug.Log("fabrice");
+
     }
 
 
