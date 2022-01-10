@@ -34,6 +34,11 @@ public class main : MonoBehaviour {
         SceneManager.LoadScene(2);
     }
 
+    public void LoadTest3()
+    {
+        SceneManager.LoadScene(3);
+    }
+
 
 
 }
